@@ -207,10 +207,10 @@ int main(void)
 void lcd_dis()
 {
 Lcd_cursor(&lcd, 0,0);
-    Lcd_string(&lcd, "DEEPIKA P");
+    Lcd_string(&lcd, "Sana Fathima H");
 
     Lcd_cursor(&lcd,1,0);
-        Lcd_string(&lcd, "212223240024");
+        Lcd_string(&lcd, "Student");
         HAL_Delay(500);
 }
 void SystemClock_Config(void)
@@ -287,7 +287,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 ~~~
 ## Output screen shots of proteus  :
-<img width="1051" height="748" alt="Screenshot 2025-09-22 085627" src="https://github.com/user-attachments/assets/ebdad1b7-3628-46c3-bf74-a09c8d323c3f" />
+<img width="1912" height="1015" alt="image" src="https://github.com/user-attachments/assets/fe292e39-faea-4995-a853-c45109e84744" />
+
 
 
 
